@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: #969696;
+}
+
+h1.title {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#ip_address
+{
+    border: 1px solid black;
+    /* width: 350px; */
+    height: 58px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+  background: url("/app/assests/pattern-bg.png") no-repeat 100% 100% / cover;
+  text-align: center;
+  padding: 20px;
+  min-height: 200px;
+}
+.form-elements {
+  position: relative;
+  max-width: 380px;
+  margin: auto;
+}
+.form-control {
+  padding: 15px;
+  min-width: 380px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-dark{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    right: 0;
+     border: none;
+     cursor: pointer;
+     /* border-radius: 20px 15px 20px 20px; */
+    
+}
+
+.display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+  background-color: #fff;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 4);
+  min-height: 130px;
+  position: relative;
+  z-index: 1000;
+  padding: 30px;
+margin-bottom: 1.5px;
+}
+.info-block {
+  border-right: 1px solid;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 15px;
+}
+.info-block-last {
+  border-right: none;
+}
+
+.muted-title {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+span.results {
+  font-weight: 500;
+  color: #2b2b2b;
+  font-size: 20px;
+}
+/*  /////////////////////// boSHQA KOARTA */
+
+ .map-container {
+    background-color: #5C80EA;
+    margin-top: -970px;
+    min-height: 72vh; 
+} 
